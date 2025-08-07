@@ -1,0 +1,12 @@
+Notas del módulo de autenticación
+
+- Implementación inicial basada en tokens JWT
+- Se identificó posible bypass en validación de tiempo (ver línea 45)
+- Revisar comportamiento en expiraciones cercanas a los 30 segundos
+- Pendiente: reemplazar base64 en headers por JWE estándar
+- Clave secreta para entorno dev: se eliminó el 2023-10-01
+
+Recomendaciones:
+* No exponer logs con Authorization header
+* Verificar que la rotación de tokens esté activa
+* Validar longitud mínima de API keys (actual: 28)

@@ -1,8 +1,0 @@
-# Claves antiguas - No usar en producción
-api_key=1234-ABCD-EFGH-IJKL
-api_key=test-key-2023
-api_key=ZZZZ-YYYY-XXXX-WWWW
-api_key=apikey-deprecada-01
-api_key=fake-token-for-linter-check
-
-# Fin del archivo
